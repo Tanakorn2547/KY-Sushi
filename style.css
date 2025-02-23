@@ -1,0 +1,235 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+button {
+    font-family: 'Sarabun', sans-serif;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+.bg-yellow-100 {
+    background-color: #fff9c4; /* สร้างสีพื้นหลังที่มีความนุ่มนวล */
+}
+
+.bg-blue-500 {
+    background-color: #3498db;
+}
+
+.bg-blue-500:hover {
+    background-color: #2980b9;
+}
+
+.text-blue-600 {
+    color: #2980b9;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button.w-full {
+    max-width: 250px; /* กำหนดความกว้างสูงสุดของปุ่ม */
+    margin: 0 auto; /* จัดตำแหน่งให้ปุ่มอยู่ตรงกลาง */
+}
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #fff9c4; /* สีพื้นหลังนุ่มนวล */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+    color: #2980b9; /* สีข้อความฟ้า */
+}
+
+button {
+    font-family: 'Sarabun', sans-serif;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05); /* เพิ่มขนาดปุ่มเมื่อ hover */
+}
+
+button:focus {
+    outline: none;
+}
+
+.bg-blue-500 {
+    background-color: #3498db; /* สีฟ้าของปุ่ม */
+}
+
+.bg-blue-500:hover {
+    background-color: #2980b9; /* เปลี่ยนเป็นสีน้ำเงินเข้มเมื่อ hover */
+}
+
+.bg-blue-700 {
+    background-color: #2980b9; /* สีฟ้าหลังจาก hover สำหรับปุ่มกลับ */
+}
+
+.text-white {
+    color: white;
+}
+
+.max-w-xs {
+    max-width: 300px; /* กำหนดความกว้างสูงสุดของแต่ละเมนู */
+}
+
+.bg-white {
+    background-color: white; /* สีพื้นหลังของแต่ละกล่องเมนู */
+}
+
+.shadow-lg {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เงาเบาๆ */
+}
+
+.p-6 {
+    padding: 24px; /* กำหนด padding */
+}
+
+.rounded-lg {
+    border-radius: 16px; /* มุมโค้งให้กล่อง */
+}
+
+.mb-6 {
+    margin-bottom: 24px; /* ระยะห่างระหว่างแต่ละเมนู */
+}
+
+.m-4 {
+    margin: 16px; /* ระยะห่างรอบๆ ปุ่ม */
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bottom-6 {
+    bottom: 24px; /* ระยะห่างจากด้านล่าง */
+}
+
+.right-6 {
+    right: 24px; /* ระยะห่างจากด้านขวา */
+}
+
+img {
+    border-radius: 8px; /* มุมโค้งให้กับรูปภาพ */
+    max-width: 100%; /* ให้รูปภาพไม่ขยายเกินขนาดของ container */
+    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+}
+
+a {
+    text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+}
+
+a:hover {
+    text-decoration: underline; /* เพิ่มขีดเส้นใต้เมื่อ hover ที่ลิงค์ */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* สีพื้นหลังอ่อนๆ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+#qr-image {
+    margin-top: 20px;
+    width: 400px; /* ขนาดของรูป QR */
+    border-radius: 8px; /* มุมโค้งให้กับภาพ */
+}
+
+#qr-code-scanner {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* มุมโค้งให้กับกล่องที่แสดงการสแกน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาเบาๆ */
+}
+
+#message {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#scan-result {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+
+.back-to-home {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home:hover {
+    background-color: #0056b3;
+}
+
+.cart-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 25px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-button:hover {
+    background-color: #218838;
+}
+
+/* ใช้สำหรับปุ่มให้มีรูปแบบที่ดูสะอาด */
+button {
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.2s ease, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05); /* เพิ่มขนาดปุ่มเมื่อ hover */
+}
+
+button:focus {
+    outline: none;
+}
